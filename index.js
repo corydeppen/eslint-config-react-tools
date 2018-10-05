@@ -26,6 +26,12 @@ module.exports = {
     'no-nested-ternary': 0,
     'no-shadow': 0,
     'no-param-reassign': 0,
+    'jsx-a11y/anchor-is-valid': ['error', {
+      components: ['Link'],
+      specialLink: [],
+      specialLink: ['to'],
+      aspects: ['noHref', 'invalidHref', 'preferButton'],
+    }],
     'jsx-a11y/href-no-hash': 0,
     'jsx-a11y/no-noninteractive-element-interactions': 0,
     radix: 0,
